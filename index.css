@@ -1,0 +1,283 @@
+.menu
+{
+opacity: 0.8;
+padding: 10px;
+position:absolute; top:2%; right:2%;
+}
+ 
+.menu ul 
+{
+border-radius: 8px;
+    list-style-type: none;
+    overflow: hidden;
+background-color: black;
+}
+
+.menu li 
+{
+margin-right:100px;
+    float: left;
+}
+
+.menu li a 
+{
+
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover:not(.active) 
+{
+    background-color:#4CAF50;
+        font-size:20px;
+        color:white;
+}
+
+.menu li a.active 
+{
+    color: white;
+    background-color: #4CAF50;
+
+}
+
+body
+{
+background-attachment: fixed;
+
+background-image:url("https://cloud.githubusercontent.com/assets/15232817/13019837/c0eddea6-d19f-11e5-8c85-3c123a20586e.jpeg");
+
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center;
+
+background-color:#FFFFFF;
+
+}
+#content
+{
+padding-top:30px;
+border-radius: 30px;
+background-color:#000000;
+opacity:.6;
+font-weight:bolder;
+font-size:20px;
+color:#4CAF50   ;
+display: inline-block;
+margin:20% 10% 20% 25%;
+text-align:center;
+
+}
+p 
+{ 
+margin: 0 !important; 
+}
+#developer
+{
+line-height:35px;
+font-size:150%;
+font-family: 'Bodoni MT', Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+
+}
+#content2
+{
+font-size:250%;
+font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+}
+.nothing
+{
+	clear:both;
+}
+
+.mContent
+{
+width:200px;
+height:400px;
+background-color:green;
+background-image:url("me.jpg");
+background-size:100% 100%;
+position:relative;
+left:50px;
+top:100px;
+
+border-radius:10px;
+
+}
+.newcontent
+{
+width:100%;
+height:1000px;
+background-color:#4CAF50;
+border-radius:10px;
+opacity:.6;
+}
+img
+{
+	opacity:.8;
+}
+.bio
+{
+position:absolute;	
+text-align:center;
+margin:10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nothing
+{
+     clear:both;
+}
+
+
+
+
+
+#name
+{
+	padding-top:10%;
+margin-right:5%;
+border-radius:5%;
+text-align:right;
+color:#00BFFF;
+font-family: Papyrus,fantasy;
+//float:left;
+}
+.head
+{
+color:	#87CEFA;
+font-family: Papyrus,fantasy;
+}
+.profile
+{
+padding:5% 5% 5% 5%;
+border-radius:10%;
+position:relative;
+
+color: 	#87CEFA;
+border-top:10px groove #4CAF50;
+border-bottom:10px groove #4CAF50;
+font-family:Copperplate,Copperplate Gothic Light,fantasy;
+}
+
+
+
+#in
+{
+position:relative;
+padding:5%;
+border-radius:2%;
+//background-color:gray;
+}
+#name1
+{
+background-color: 	#FAF0E6;
+}
+
+#inline
+{
+position:relative;
+}
+
+.hobbies
+{
+    width:100%;
+height:1000px;
+background-color:#4CAF50;
+border-radius:10px;
+opacity:.6;
+ position:relative;
+ top:400px;
+
+}
+.p2
+{
+    float:left;
+}
+.Exercising
+{
+ background-image:url("exercise.jpg");   
+ background-size:100% 100%;
+ height:100px;
+ width:100px;
+ float:left;
+ margin:20px;
+   border:black dotted 2px;
+  border-radius:10px;
+}
+.movies
+{
+ background-image:url("Movies.jpg");   
+ background-size:100% 100%;
+ height:100px;
+ width:100px;
+ float:left;
+  margin:20px;
+    border:black dotted 2px;
+  border-radius:10px;
+}
+.pool
+{
+ background-image:url("pool.jpg");   
+ background-size:100% 100%;
+ height:100px;
+ width:100px;
+ float:left;
+  margin:20px;
+    border:black dotted 2px;
+  border-radius:10px;
+}
+.video
+{
+ background-image:url("game.png");   
+ background-size:100% 100%;
+ height:100px;
+ width:100px;
+ float:left;
+  margin:20px;
+    border:black dotted 2px;
+  border-radius:10px;
+}
+.Anime
+{
+ background-image:url("Anime.jpg");   
+ background-size:100% 100%;
+ height:100px;
+ width:100px;
+ float:left;
+  margin:20px;
+    border:black dotted 2px;
+  border-radius:10px;
+}
+.Sports
+{
+ background-image:url("Sports.jpg");   
+ background-size:100% 100%;
+ height:100px;
+ width:100px;
+ float:left;
+  margin:20px;
+  border:black dotted 2px;
+  border-radius:10px;
+}
+.title
+{
+    font-size:50px;
+}
+.hobbies ul li 
+{
+        font-size:30px;
+}
