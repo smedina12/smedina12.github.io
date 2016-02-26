@@ -93,10 +93,10 @@ font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', G
 
 .mContent
 {
-width:200px;
+width:400px;
 height:400px;
 background-color:green;
-background-image:url("me.jpg");
+background-image:url("me1.jpg");
 background-size:100% 100%;
 position:relative;
 left:50px;
